@@ -1,0 +1,54 @@
+<div class="cotainer container-form">
+    <form [formGroup]="dataPersonal" (ngSubmit)="onSubmit()" class="form-reactive">
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Documento : </label>
+            </div>
+            <div class="col">
+                <input type="text" id="documentInput"  class="form-control" formControlName="document" placeholder="N° Documento">
+            </div>
+        </div>
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Nombres : </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" formControlName="names" placeholder="User test ...">
+            </div>
+        </div>
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Apellidos : </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" formControlName="lastName" placeholder="User test ...">
+            </div>
+        </div>
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Telefono : </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" formControlName="phone" placeholder="XXXXXXX1">
+            </div>
+        </div>
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Correo : </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" formControlName="email" placeholder="XXXX@XXXX.net">
+            </div>
+        </div>
+        <div class="row row-space-between">
+            <div class="col">
+                <label class="col-form-label label-text">Direccion : </label>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" formControlName="adress" placeholder="Cra XX # XX - XX X">
+            </div>
+        </div>
+        <button class="btn btn-success btn-submmit" type="submit">Guardar</button>
+    </form>
+    
+</div>

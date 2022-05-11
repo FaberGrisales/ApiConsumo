@@ -1,0 +1,33 @@
+    .container-form {
+        width: 70%;
+    }
+
+    .container-form > form > div >label {
+        padding-left: 0;
+    }
+
+    .form-reactive {
+        margin-left: 30%;
+        border: 2px solid gray;
+        border-radius: 14px;
+        width: 85%;
+        padding: 4% 9% 0% 10%;
+        box-shadow: 3px 3px 12px 5px;
+    }
+
+    .row-space-between {
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+
+    .btn-submmit {
+        margin: 3% 0% 4% 30%;
+        height: 3rem;
+        width: 25%;
+        border-radius: 20px;
+    }
+
+    .label-text {
+        margin-left: 15%;
+        font-weight: 600;
+    }
